@@ -1,7 +1,9 @@
-* {
-  margin : 0;
-  box-sizing : border-box;
-  opacity : 0.85;
+div,
+p {
+  border: solid 1px black;
+  padding: 10px;
+  margin: 0;
+  border-radius: 30px;
 }
 body {
     height : 100vh; 
@@ -17,8 +19,20 @@ height : calc(100% / 3);
  background-color : cyan;
   align-items: center;
 }
+#eyes {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  width: 200px;
+}
 #upper-body{
  background-color: blueviolet;
+}
+#torso {
+  width: 200px;
+  background-color: violet;
 }
 #lower-body{
  background-color: lightsalmon;
