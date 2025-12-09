@@ -7,18 +7,18 @@ body {
     height 100vh
   }
 section {
-  padding : 20px
+ padding : 20px
 
 width : 100%
 
 height : calc(100% / 3)
 }
 #face {
-  background-color: cyan
+ background-color: cyan
 }
 #upper-body{
-  background-color: blueviolet
+ background-color: blueviolet
 }
 #lower-body{
-  background-color: lightsalmon
+ background-color: lightsalmon
 }
